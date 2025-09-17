@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/digitalresume/static/css/main.574a1bf8.css",
+    "main.js": "/digitalresume/static/js/main.affcb93d.js",
+    "index.html": "/digitalresume/index.html",
+    "main.574a1bf8.css.map": "/digitalresume/static/css/main.574a1bf8.css.map",
+    "main.affcb93d.js.map": "/digitalresume/static/js/main.affcb93d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.574a1bf8.css",
+    "static/js/main.affcb93d.js"
+  ]
+}
