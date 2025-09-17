@@ -1,25 +1,45 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import "./style.css";
+import Navbar from "./components/Navbar";
+import ProfileSection from "./components/ProfileSection";
+import EducationSection from "./components/EducationSection";
+import MilestonesSection from "./components/MilestonesSection";
+import ProjectsSection from "./components/ProjectsSection";
+import DesignsSection from "./components/DesignsSection";
+import SkillsSection from "./components/SkillsSection";
+import ContactModal from "./components/ContactModal";
+import { projects, skills, designs, education, milestones } from "./data";
 
-function App() {
+export default function App() {
+  const [showModal, setShowModal] = useState(false);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      {/* Background video */}
+      <video
+        autoPlay
+        loop
+        muted
+        className="background-video"
+        src={`${process.env.PUBLIC_URL}/assets/videos/67358-521707474_small.mp4`}
+        type="video/mp4"
+      />
+
+      {/* Navbar component */}
+      <Navbar onContactClick={() => setShowModal(true)} />
+
+      {/* Sections */}
+      <div style={{ marginTop: "80px" }}>
+        <ProfileSection />
+        <EducationSection education={education} />
+        <MilestonesSection milestones={milestones} />
+        <ProjectsSection projects={projects} />
+        <DesignsSection designs={designs} />
+        <SkillsSection skills={skills} />
+      </div>
+
+      {/* Contact modal */}
+      <ContactModal show={showModal} onClose={() => setShowModal(false)} />
+    </>
   );
 }
-
-export default App;
