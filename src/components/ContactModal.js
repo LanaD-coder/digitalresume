@@ -14,7 +14,7 @@ export default function ContactModal({ show, onClose }) {
         <p>
           LinkedIn:{" "}
           <a
-            href="https://www.linkedin.com/in/yourprofile"
+            href="linkedin.com/in/illana-de-beer-026332198"
             target="_blank"
             rel="noopener noreferrer"
           >
