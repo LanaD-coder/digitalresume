@@ -1,29 +1,33 @@
 export const projects = [
   {
     title: "Unleash",
-    description: "Brief description of project one.",
+    description:
+      "My first fully front-end website. This first taste of programming allowed me to integrate AI-generated imagery and some engaging features.",
     image: `/assets/images/Screenshot-mockup.png`,
     grade: "Merit",
     badgeColor: "success",
   },
   {
     title: "Oh no Lola",
-    description: "Brief description of project two.",
+    description:
+      '"Oh no Lola" was created with education in mind, focusing on reading comprehension. Each story is written by me, aiming to convey subtle life lessons through simple narratives.',
     image: `/assets/images/mockup-hp.png`,
     grade: "Pass",
     badgeColor: "warning",
   },
   {
     title: "Salon La Vida",
-    description: "Brief description of project three.",
+    description:
+      "A dynamic and user-friendly Python project designed to streamline the management of services, pricing, and sales for Salon LaVida. Inspired by my sister's salon, it allows tracking of products and services, calculating totals, and handling sales efficiently. The system helps maintain accurate records and simplifies daily operations.",
     image: `/assets/images/mockup.png`,
     link: "https://salon-lavida-service-app-30430987c2a8.herokuapp.com/",
     grade: "Merit",
     badgeColor: "success",
   },
   {
-    title: "A light unto my path",
-    description: "Brief description of project four.",
+    title: "A Light Unto My Path",
+    description:
+      "A personal blog sharing my journey of spiritual growth and inclusion. Through this project, I explore themes of faith, identity, and unconditional love, aiming to offer hope and reassurance to LGBTQ+ individuals navigating similar experiences.",
     image: `/assets/images/hp-mockup.png`,
     link: "https://www.alightuntomypath.de/",
     grade: "Merit",
@@ -31,7 +35,8 @@ export const projects = [
   },
   {
     title: "Print & Design",
-    description: "Brief description of project five.",
+    description:
+      "A platform that allows customers to upload and print their own designs or purchase pre-designed products. It offers flexibility and creativity, including business cards, posters, t-shirts, stationery, and digital templates. The project is inspired by platforms like Wirmachendruck in Germany and Upwork in the US, emphasizing practical digital design solutions.",
     image: `/assets/images/homepage.png`,
     link: "https://print-design-d837920c6712.herokuapp.com/",
     grade: "Pass",
@@ -39,7 +44,8 @@ export const projects = [
   },
   {
     title: "Calli Der Camper rental",
-    description: "Brief description of project six.",
+    description:
+      "A campervan rental website featuring a booking system, calendar functionality, and Stripe integration. Includes high-quality images, a FAQ section, YouTube videos, and suggested camping locations.",
     image: `/assets/images/jarental.png`,
     link: "https://www.callidercamper.de",
   },
