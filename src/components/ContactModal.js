@@ -8,17 +8,18 @@ export default function ContactModal({ show, onClose }) {
       </Modal.Header>
       <Modal.Body>
         <p>
-          Email: <a href="c.wnt.nd1053@gmail.com">your.email@example.com</a>
+          Email:{" "}
+          <a href="mailto:c.wnt.nd1053@gmail.com">c.wnt.nd1053@gmail.com</a>
         </p>
         <p>Phone: +49 152 1025 7226</p>
         <p>
           LinkedIn:{" "}
           <a
-            href="linkedin.com/in/illana-de-beer-026332198"
+            href="https://linkedin.com/in/illana-de-beer-026332198"
             target="_blank"
             rel="noopener noreferrer"
           >
-            linkedin.com/in/yourprofile
+            linkedin.com/in/illana-de-beer-026332198
           </a>
         </p>
         <p>
