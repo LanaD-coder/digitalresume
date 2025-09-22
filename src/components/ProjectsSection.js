@@ -1,7 +1,7 @@
 export default function ProjectsSection({ projects }) {
   return (
     <section id="projects" className="container py-5">
-      <h2 className="mb-4 text-center">Projects</h2>
+      <h2 className="mb-4">Projects</h2>
       <div className="row g-4">
         {projects.map((project, index) => (
           <div className="col-md-4" key={index}>

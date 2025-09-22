@@ -139,11 +139,6 @@ export const education = [
 
 export const milestones = [
   {
-    title: "Diploma in Shipping & Logistics Management",
-    file: `${process.env.PUBLIC_URL}/assets/docs/kaplan-certificate.pdf`,
-    type: "Certificate",
-  },
-  {
     title: "Diploma in Full Stack Software Development",
     file: `${process.env.PUBLIC_URL}/assets/docs/ci_diploma.pdf`,
     type: "Certificate",
@@ -154,8 +149,8 @@ export const milestones = [
     type: "Certificate",
   },
   {
-    title: "Reference Letter - GLOBUS Markthalle Essen",
-    file: `${process.env.PUBLIC_URL}/assets/docs/globus-arbeitszeugnis.pdf`,
-    type: "Reference Letter",
+    title: "Diploma in Shipping & Logistics Management",
+    file: `${process.env.PUBLIC_URL}/assets/docs/kaplan-certificate.pdf`,
+    type: "Certificate",
   },
 ];

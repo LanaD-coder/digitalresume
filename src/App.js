@@ -31,11 +31,11 @@ export default function App() {
       {/* Sections */}
       <div style={{ marginTop: "80px" }}>
         <ProfileSection />
-        <EducationSection education={education} />
-        <MilestonesSection milestones={milestones} />
         <ProjectsSection projects={projects} />
         <DesignsSection designs={designs} />
         <SkillsSection skills={skills} />
+        <EducationSection education={education} />
+        <MilestonesSection milestones={milestones} />
       </div>
 
       {/* Contact modal */}
