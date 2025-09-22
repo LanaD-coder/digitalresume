@@ -13,7 +13,20 @@ export default function ProjectsSection({ projects }) {
               />
               <div className="card-body d-flex flex-column">
                 <h5 className="card-title">{project.title}</h5>
+
+                {/* English description */}
                 <p className="card-text flex-grow-1">{project.description}</p>
+
+                {/* German description (light grey) */}
+                {project.descriptionDe && (
+                  <p
+                    className="card-text"
+                    style={{ color: "grey", fontSize: "0.9rem" }}
+                  >
+                    {project.descriptionDe}
+                  </p>
+                )}
+
                 {project.link && (
                   <a
                     href={project.link}
@@ -24,6 +37,7 @@ export default function ProjectsSection({ projects }) {
                     Visit Website
                   </a>
                 )}
+
                 {project.grade && (
                   <span className={`badge bg-${project.badgeColor} mt-2`}>
                     Grade: {project.grade}

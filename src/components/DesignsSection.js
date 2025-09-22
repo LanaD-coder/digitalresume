@@ -9,6 +9,12 @@ export default function DesignsSection({ designs }) {
               <div className="card-body">
                 <h5 className="card-title">{design.title}</h5>
                 <p className="card-text">{design.description}</p>
+                <p
+                  className="card-text"
+                  style={{ color: "grey", fontSize: "0.9rem" }}
+                >
+                  {design.descriptionDE}
+                </p>
                 <span className="badge bg-info mb-3">Tool: {design.tool}</span>
                 {design.images
                   ? design.images.map((img, i) => (
