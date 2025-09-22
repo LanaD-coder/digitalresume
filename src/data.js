@@ -121,14 +121,14 @@ export const skills = [
 
 export const education = [
   {
-    school: "Kaplan College, Singapore",
-    qualification: "Diploma in Shipping and Logistics Management",
-    period: "2010 - 2011",
-  },
-  {
     school: "Code Institute",
     qualification: "Diploma in Full Stack Software Development",
     period: "Dec. 2024 - May 2025",
+  },
+  {
+    school: "Kaplan College, Singapore",
+    qualification: "Diploma in Shipping and Logistics Management",
+    period: "2010 - 2011",
   },
   {
     school: "Udemy",
