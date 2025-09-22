@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/digitalresume/static/css/main.574a1bf8.css",
-    "main.js": "/digitalresume/static/js/main.c8a5ce5f.js",
+    "main.js": "/digitalresume/static/js/main.91282d17.js",
     "index.html": "/digitalresume/index.html",
     "main.574a1bf8.css.map": "/digitalresume/static/css/main.574a1bf8.css.map",
-    "main.c8a5ce5f.js.map": "/digitalresume/static/js/main.c8a5ce5f.js.map"
+    "main.91282d17.js.map": "/digitalresume/static/js/main.91282d17.js.map"
   },
   "entrypoints": [
     "static/css/main.574a1bf8.css",
-    "static/js/main.c8a5ce5f.js"
+    "static/js/main.91282d17.js"
   ]
 }
