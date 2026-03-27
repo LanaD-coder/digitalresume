@@ -104,6 +104,20 @@ export const designs = [
     ],
     tool: "Adobe Photoshop",
   },
+  {
+    title: "Apparel Designs",
+    description: "A series of religious apperel printables.",
+    descriptionDE:
+      "Eine Serie von Flyern, die alle angebotenen Dienstleistungen abdecken.",
+    images: [
+      `/assets/images/fearfullyback.png`,
+      `/assets/images/GodIsGreater.jpg`,
+      `/assets/images/praisewm.png`,
+      `/assets/images/sinson.png`,
+      `/assets/images/strengthwm.png`,
+    ],
+    tool: "Adobe Photoshop and Illustrator",
+  },
 ];
 
 export const skills = [
